@@ -1,0 +1,184 @@
+/* ================ Google  Fonts ================ */
+/* 
+font-family: 'Gloock', serif;
+font-family: 'Phudu', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shantell Sans', cursive;
+font-family: 'Tilt Prism', cursive; 
+*/
+
+
+body {
+	background: #222222;
+}
+
+/* Target the navbar */
+nav.navbar {
+    background-color: #083832; /* Change the background color of the navbar */
+    /* border-bottom: 1px solid #51deca; Add a border at the bottom of the navbar */
+    background: linear-gradient(145deg, #08423a, #3ba193);
+    box-shadow: 12px 12px 24px #06423a, -12px -12px 24px #51deca;
+  }
+  .navbar a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+}
+  
+  /* Target the navbar-brand */
+  nav.navbar .navbar-brand {
+    font-size: 1.5rem; /* Increase the font size of the brand text */
+    font-weight: bold; /* Make the brand text bold */
+    color: white; /* Change the color of the brand text */
+  }
+  
+  /* Target the navbar-toggler-icon */
+  nav.navbar .navbar-toggler-icon {
+    color: aliceblue; /* Change the color of the toggler icon */
+  }
+  
+  /* Target the navbar links */
+  nav.navbar a.nav-link {
+    font-size: 1.1rem; /* Increase the font size of the links */
+    color: #a2a2a3; /* Change the color of the links */
+    margin-right: 1rem; /* Add a right margin to the links */
+  }
+  
+  /* Target the active link */
+  nav.navbar a.nav-link.active {
+    font-weight: bold; /* Make the active link bold */
+    color: #b1b3b4; /* Change the color of the active link */
+  }
+  
+  /* Add a hover effect to the links */
+  nav.navbar a.nav-link:hover {
+    color: #565d64;
+    text-decoration: none;
+  }
+/* =============================================================== */
+
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: auto;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-overflow: clip;
+}
+
+.hero-section h1 span {
+  font-family: 'Tilt Prism', cursive;
+  background: linear-gradient(145deg, #3ba193, #08423a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.hero-section p {
+  font-size: auto;
+  color: cornsilk;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-overflow: clip;
+  font-family: 'Shantell Sans', cursive;
+}
+
+.hero-section p span {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+/* =============================================================== */
+.cv-download  {
+  font-family: 'Gloock', serif;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 25px;
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #083832;
+  background-size: 400%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(145deg, #3ba193, #08423a);
+  transition: all 0.475s;
+}
+/* =============================================================== */
+
+/* Style for the footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  font-size: 10px;
+}
+
+/* Style for the container inside the footer */
+.footer .container {
+  max-width: 550px;
+  margin:  auto;
+}
+
+/* Style for the row inside the container */
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for the column on the left side of the row */
+.footer .col-md-6:first-of-type {
+  margin-bottom: 5px;
+}
+
+/* Style for the copyright paragraph */
+.footer p {
+  font-weight: bold;
+}
+
+/* Style for the links on the right side of the row */
+.footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style for the separator between the links */
+.footer .text-muted {
+  color: #999;
+}

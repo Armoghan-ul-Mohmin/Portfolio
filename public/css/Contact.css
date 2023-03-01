@@ -1,0 +1,137 @@
+.container{
+    margin-top: 70px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center; /* centers the text within the div */
+  }
+  
+  .header h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .header h1:hover {
+    color: #51deca;
+  }
+  
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=email] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #41b3a3;
+    color: black;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #51deca;
+  }
+
+/* Style for social icons */
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.socials div {
+  margin: 0 10px;
+}
+
+.socials a.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.socials a.btn:hover {
+  transform: scale(1.1);
+}
+
+.socials a.btn i {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Style for media queries */
+@media only screen and (max-width: 768px) {
+  .socials {
+    margin: 20px 0;
+  }
+  
+  .socials div {
+    margin: 10px;
+  }
+  
+  .socials a.btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .socials a.btn i {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .socials {
+    margin: 10px 0;
+  }
+  
+  .socials div {
+    margin: 5px;
+  }
+  
+  .socials a.btn {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .socials a.btn i {
+    font-size: 16px;
+  }
+}
