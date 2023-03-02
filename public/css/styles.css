@@ -149,36 +149,15 @@ nav.navbar {
   font-size: 10px;
 }
 
-/* Style for the container inside the footer */
-.footer .container {
-  max-width: 550px;
-  margin:  auto;
-}
 
 /* Style for the row inside the container */
 .footer .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
 }
 
-/* Style for the column on the left side of the row */
-.footer .col-md-6:first-of-type {
-  margin-bottom: 5px;
-}
 
-/* Style for the copyright paragraph */
-.footer p {
-  font-weight: bold;
-}
 
-/* Style for the links on the right side of the row */
-.footer a {
-  color: #333;
-  text-decoration: none;
-}
 
-/* Style for the separator between the links */
-.footer .text-muted {
-  color: #999;
-}
